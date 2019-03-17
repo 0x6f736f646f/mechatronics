@@ -3,6 +3,7 @@
 
 #C 
 *.exe
+*.o
 
 #Codeblock generated files
 bin/
