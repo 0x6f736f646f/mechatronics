@@ -3,7 +3,7 @@
 
 int input();
 char getGrade(int mark);
-void output(char grade);
+void output(char grade, int score);
 
 int main()
 {
@@ -16,7 +16,7 @@ int main()
         return 0;
     }
     grade = getGrade(marks);
-    output(grade);
+    output(grade, marks);
     return 0;
 }
 
@@ -54,7 +54,7 @@ char getGrade(int mark)
     return grade;
 }
 
-void output(char grade)
+void output(char grade, int score)
 {
-    printf("You had an average of grade %c", grade);
+    printf("You had an average of %d which is grade %c", score, grade);
 }
