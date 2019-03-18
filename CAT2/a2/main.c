@@ -4,7 +4,7 @@
 int main()
 {
     int first_num, iterator = 0, number, minimum_num, maximum_num;
-    float average, sum = 0;
+    float average, sum;
     printf("Enter a +ve integer: ");
     scanf("%d", &first_num);
     if (first_num <= 0)
@@ -14,7 +14,7 @@ int main()
     }
     maximum_num = first_num;
     minimum_num = first_num;
-    sum = sum + first_num;
+    sum = first_num;
     do
     {
         iterator++;
