@@ -1,7 +1,7 @@
 # MECHATRONICS DISCUSSION GROUP
 
 > Code sample on the hackcad discussion
-group both homework and class discussion
+group both homework and class discussion.
 
 ## Getting started
 These instructions will get you a copy of the project up on your local machine for development purposes. No deployments
